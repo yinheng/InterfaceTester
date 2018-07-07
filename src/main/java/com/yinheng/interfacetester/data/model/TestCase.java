@@ -4,6 +4,7 @@ import lombok.Data;
 
 @Data
 public class TestCase {
+
     private String id;
     private String testName;
     private Level level;
@@ -15,4 +16,5 @@ public class TestCase {
     private String output;
     private String response;
     private Result result;
+
 }

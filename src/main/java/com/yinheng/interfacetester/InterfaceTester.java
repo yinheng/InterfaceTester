@@ -2,6 +2,7 @@ package com.yinheng.interfacetester;
 
 import com.yinheng.interfacetester.data.TestData;
 import com.yinheng.interfacetester.data.model.TestCase;
+import com.yinheng.interfacetester.runner.ResponseFailException;
 import com.yinheng.interfacetester.runner.TestCaseRunner;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -32,7 +33,7 @@ public class InterfaceTester {
     }
 
     @Test
-    public void run() {
+    public void run() throws IOException, ResponseFailException {
         for (TestCase testCase : mTestCases) {
             TestCaseRunner testCaseRunner = new TestCaseRunner();
             testCaseRunner.runCase(testCase);

@@ -8,23 +8,63 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InterfaceTester.iml" beforeDir="false" afterPath="$PROJECT_DIR$/InterfaceTester.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/BuildConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/InterfaceTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/InterfaceTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/TestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/model/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/model/Level.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/model/RequestType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/model/RequestType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/model/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/model/Result.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/model/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/model/TestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/runner/TestCaseRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/runner/TestCaseRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Template.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Template.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/yinheng/interfacetester/data/TestDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yinheng/interfacetester/data/TestDataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Template.xls" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Template.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yinheng/interfacetester/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yinheng/interfacetester/BuildConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/yinheng/interfacetester/InterfaceTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yinheng/interfacetester/InterfaceTester.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/yinheng/interfacetester/data/TestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yinheng/interfacetester/data/TestData.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/yinheng/interfacetester/data/model/Level.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yinheng/interfacetester/data/model/Level.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/yinheng/interfacetester/data/model/RequestType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yinheng/interfacetester/data/model/RequestType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/yinheng/interfacetester/data/model/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yinheng/interfacetester/data/model/Result.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/yinheng/interfacetester/data/model/TestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yinheng/interfacetester/data/model/TestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yinheng/interfacetester/runner/TestCaseRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yinheng/interfacetester/runner/TestCaseRunner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.yinheng.interfacetester.data.TestDataTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.yinheng.interfacetester.data.TestDataTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.yinheng.interfacetester.data.TestDataTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.yinheng.interfacetester.data.TestDataTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.yinheng.interfacetester.data.TestDataTest/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.yinheng.interfacetester.data.TestDataTest/Command line test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.yinheng.interfacetester.data.TestDataTest/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.yinheng.interfacetester.data.TestDataTest/Command line test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/failed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.yinheng.interfacetester.data.TestDataTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.yinheng.interfacetester.data.TestDataTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.yinheng.interfacetester.data.TestDataTest/Command line test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/com.yinheng.interfacetester.data.TestDataTest/Command line test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.yinheng.interfacetester.data.TestDataTest/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/com.yinheng.interfacetester.data.TestDataTest/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.yinheng.interfacetester.data.TestDataTest/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/com.yinheng.interfacetester.data.TestDataTest/groups.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.yinheng.interfacetester.data.TestDataTest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/com.yinheng.interfacetester.data.TestDataTest/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.yinheng.interfacetester.data.TestDataTest/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/com.yinheng.interfacetester.data.TestDataTest/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.yinheng.interfacetester.data.TestDataTest/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/com.yinheng.interfacetester.data.TestDataTest/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.yinheng.interfacetester.data.TestDataTest/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/com.yinheng.interfacetester.data.TestDataTest/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.yinheng.interfacetester.data.TestDataTest/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/com.yinheng.interfacetester.data.TestDataTest/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.yinheng.interfacetester.data.TestDataTest/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/com.yinheng.interfacetester.data.TestDataTest/reporter-output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.yinheng.interfacetester.data.TestDataTest/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/com.yinheng.interfacetester.data.TestDataTest/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.yinheng.interfacetester.data.TestDataTest/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/com.yinheng.interfacetester.data.TestDataTest/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/passed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/skipped.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/yinheng/interfacetester/data/TestDataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/yinheng/interfacetester/data/TestDataTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,63 +81,8 @@
       <file leaf-file-name="TestCaseRunner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/runner/TestCaseRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InterfaceTester.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/InterfaceTester.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuildConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/BuildConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestDataTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/yinheng/interfacetester/data/TestDataTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="14" column="127" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="127" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/TestData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="26" column="80" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
+            <state relative-caret-position="306">
+              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,8 +93,50 @@
       <file leaf-file-name="TestCase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/model/TestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="180">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequestType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/model/RequestType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpPostRequester.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/runner/HttpPostRequester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpGetRequester.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/runner/HttpGetRequester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,15 +161,24 @@
         <option value="$PROJECT_DIR$/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/model/Level.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/model/RequestType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/model/Result.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/model/TestCase.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/yinheng/interfacetester/data/TestDataTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/BuildConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/testng.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/InterfaceTester.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/TestData.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/runner/ResponseRetriever.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/runner/HttpRequester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/runner/TypeRequester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/runner/Requester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/runner/TestCaseRequester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/runner/GetTestCaseRequester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/runner/ResponseFailException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/model/TestCase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/runner/HttpGetRequester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/runner/HttpPostRequester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/InterfaceTester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/model/RequestType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/runner/TestCaseRunner.java" />
       </list>
     </option>
@@ -208,6 +244,24 @@
               <item name="InterfaceTester" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="interfacetester" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InterfaceTester" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterfaceTester" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="interfacetester" type="462c0819:PsiDirectoryNode" />
+              <item name="runner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InterfaceTester" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterfaceTester" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -239,6 +293,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="LombokPluginEnabledInProject" value="true" />
     <property name="SearchEverywhereHistoryKey" value="plugin&#9;ACTION&#9;WelcomeScreen.Plugins&#10;plug&#9;ACTION&#9;WelcomeScreen.Plugins" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
@@ -482,24 +537,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestDataTest - 2018.07.07 at 18h 49m 17s.xml">
-      <configuration name="TestDataTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestDataTest - 2018.07.07 at 18h 50m 50s.xml">
-      <configuration name="TestDataTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestDataTest - 2018.07.07 at 19h 01m 25s.xml">
-      <configuration name="TestDataTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestDataTest - 2018.07.07 at 19h 01m 39s.xml">
-      <configuration name="TestDataTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestDataTest - 2018.07.07 at 19h 02m 48s.xml">
-      <configuration name="TestDataTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestDataTest - 2018.07.07 at 19h 02m 59s.xml">
-      <configuration name="TestDataTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestDataTest - 2018.07.07 at 19h 04m 26s.xml">
       <configuration name="TestDataTest" configurationId="TestNG" />
     </history-entry>
@@ -510,6 +547,24 @@
       <configuration name="E:/Workspace-Wendy/InterfaceTester/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="E__Workspace-Wendy_InterfaceTester_src_main_resources_testng_xml - 2018.07.07 at 20h 46m 05s.xml">
+      <configuration name="E:/Workspace-Wendy/InterfaceTester/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Workspace-Wendy_InterfaceTester_src_main_resources_testng_xml - 2018.07.07 at 20h 49m 00s.xml">
+      <configuration name="E:/Workspace-Wendy/InterfaceTester/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Workspace-Wendy_InterfaceTester_src_main_resources_testng_xml - 2018.07.07 at 21h 49m 55s.xml">
+      <configuration name="E:/Workspace-Wendy/InterfaceTester/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Workspace-Wendy_InterfaceTester_src_main_resources_testng_xml - 2018.07.07 at 21h 53m 08s.xml">
+      <configuration name="E:/Workspace-Wendy/InterfaceTester/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Workspace-Wendy_InterfaceTester_src_main_resources_testng_xml - 2018.07.07 at 21h 55m 03s.xml">
+      <configuration name="E:/Workspace-Wendy/InterfaceTester/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Workspace-Wendy_InterfaceTester_src_main_resources_testng_xml - 2018.07.07 at 21h 55m 13s.xml">
+      <configuration name="E:/Workspace-Wendy/InterfaceTester/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__Workspace-Wendy_InterfaceTester_src_main_resources_testng_xml - 2018.07.07 at 21h 55m 49s.xml">
       <configuration name="E:/Workspace-Wendy/InterfaceTester/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -526,11 +581,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" x="0" y="0" width="1920" height="1040" id="Run" order="2" visible="true" weight="0.32932165" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" x="0" y="0" width="1920" height="1040" id="Run" order="2" weight="0.32932165" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32932165" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -659,24 +714,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/model/RequestType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/model/Result.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
@@ -694,13 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/model/TestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/yinheng/interfacetester/data/TestDataTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -708,50 +742,156 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/BuildConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/InterfaceTester.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/TestData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="26" column="80" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
+        <state relative-caret-position="740">
+          <caret line="92" column="25" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/runner/ResponseFailException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/runner/TestCaseRequester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar!/okhttp3/MediaType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar!/okhttp3/RequestBody.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar!/okhttp3/Request.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar!/okhttp3/ResponseBody.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar!/okhttp3/Response.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="111" column="24" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="24" />
+          <folding>
+            <element signature="e#2980#2981#0" expanded="true" />
+            <element signature="e#3012#3013#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/InterfaceTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/model/TestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/runner/HttpGetRequester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/runner/HttpPostRequester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/data/model/RequestType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yinheng/interfacetester/runner/TestCaseRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+        <state relative-caret-position="306">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
           </folding>
         </state>
       </provider>

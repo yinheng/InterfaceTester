@@ -90,6 +90,7 @@ public class TestData {
 
         }
 
+        workbook.close();
         return testCases;
     }
 }
