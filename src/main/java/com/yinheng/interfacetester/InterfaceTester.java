@@ -2,6 +2,7 @@ package com.yinheng.interfacetester;
 
 import com.yinheng.interfacetester.data.TestData;
 import com.yinheng.interfacetester.data.model.TestCase;
+import com.yinheng.interfacetester.result.Compare;
 import com.yinheng.interfacetester.runner.ResponseFailException;
 import com.yinheng.interfacetester.runner.TestCaseRunner;
 import org.apache.logging.log4j.LogManager;
@@ -37,6 +38,8 @@ public class InterfaceTester {
         for (TestCase testCase : mTestCases) {
             TestCaseRunner testCaseRunner = new TestCaseRunner();
             testCaseRunner.runCase(testCase);
+            Compare compare = new Compare();
+            compare.compareResult(testCase);
         }
         mLogger.debug("run");
     }
