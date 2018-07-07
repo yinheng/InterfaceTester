@@ -1,5 +1,6 @@
 package com.yinheng.interfacetester.data;
 
+import com.yinheng.interfacetester.BuildConfig;
 import com.yinheng.interfacetester.data.model.Level;
 import com.yinheng.interfacetester.data.model.RequestType;
 import com.yinheng.interfacetester.data.model.Result;
@@ -21,7 +22,10 @@ public class TestData {
 
         Workbook workbook = WorkbookFactory.create(new File(path));
         Sheet sheet = workbook.getSheetAt(0);
-        LogManager.getLogger().debug("sheet name: " + sheet.getSheetName());
+
+        if (BuildConfig.DEBUG) {
+            LogManager.getLogger().debug("sheet name: " + sheet.getSheetName());
+        }
 
         testCases.clear();
 
