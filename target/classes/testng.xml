@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="HttpReqGenTest">  
-    <parameter name="path" value="E:\Workspace-Wendy\InterfaceTester\src\main\resources\Template.xls"/>
+    <parameter name="path" value="src\main\resources\Template.xls"/>
     <parameter name="debug" value="false"/>
+    <parameter name="reportPath" value="report"/>
 
     <test name="BasicFunction" preserve-order="true">        
         <classes>

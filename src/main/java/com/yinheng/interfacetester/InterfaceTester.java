@@ -1,8 +1,11 @@
 package com.yinheng.interfacetester;
 
 import com.yinheng.interfacetester.data.TestData;
+import com.yinheng.interfacetester.data.model.ResultStatistics;
 import com.yinheng.interfacetester.data.model.TestCase;
+import com.yinheng.interfacetester.report.ChartGenerator;
 import com.yinheng.interfacetester.report.ExcelOprationFailException;
+import com.yinheng.interfacetester.report.ResultStatisticsCreator;
 import com.yinheng.interfacetester.report.SetValueToExcel;
 import com.yinheng.interfacetester.result.Compare;
 import com.yinheng.interfacetester.runner.ResponseFailException;
@@ -47,10 +50,14 @@ public class InterfaceTester {
     }
 
     @AfterTest
-    @Parameters({"path"})
-    public void report(String path) throws IOException, InvalidFormatException, ExcelOprationFailException {
+    @Parameters({"path", "reportPath"})
+    public void report(String path, String reportPath) throws IOException, InvalidFormatException, ExcelOprationFailException {
         SetValueToExcel setValueToExcel = new SetValueToExcel();
         setValueToExcel.setResultToExcel(path, mTestCases);
         mLogger.debug("report");
+        ResultStatisticsCreator resultStatisticsCreator = new ResultStatisticsCreator();
+        ResultStatistics resultStatistics = resultStatisticsCreator.statisticsResult(mTestCases);
+        ChartGenerator chartGenerator = new ChartGenerator();
+        chartGenerator.generateChart(reportPath, resultStatistics.getSuccess(), resultStatistics.getFail());
     }
 }
