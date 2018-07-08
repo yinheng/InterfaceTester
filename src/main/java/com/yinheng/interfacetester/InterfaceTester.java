@@ -10,21 +10,14 @@ import com.yinheng.interfacetester.report.SetValueToExcel;
 import com.yinheng.interfacetester.result.Compare;
 import com.yinheng.interfacetester.runner.ResponseFailException;
 import com.yinheng.interfacetester.runner.TestCaseRunner;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.io.IOException;
 import java.util.List;
 
 
 public class InterfaceTester {
-
-    private final Logger mLogger = LogManager.getLogger();
 
     private List<TestCase> mTestCases;
 
@@ -35,18 +28,29 @@ public class InterfaceTester {
 
         TestData testData = new TestData();
         mTestCases = testData.readExcel(path);
-        mLogger.debug("readData");
     }
 
-    @Test
-    public void run() throws IOException, ResponseFailException {
-        for (TestCase testCase : mTestCases) {
-            TestCaseRunner testCaseRunner = new TestCaseRunner();
-            testCaseRunner.runCase(testCase);
-            Compare compare = new Compare();
-            compare.compareResult(testCase);
+    @Test(dataProvider = "testcaseProvider")
+    public void run(TestCase testCase) throws IOException, ResponseFailException {
+        TestCaseRunner testCaseRunner = new TestCaseRunner();
+        testCaseRunner.runCase(testCase);
+        Compare compare = new Compare();
+        compare.compareResult(testCase);
+    }
+
+
+    @DataProvider(name = "testcaseProvider")
+    public Object[][] provideTestcase() {
+
+        Object[] testcaseArray = mTestCases.toArray();
+
+        Object[][] res = new Object[testcaseArray.length][1];
+
+        for (int i = 0; i < res.length; i++) {
+            res[i][0] = testcaseArray[i];
         }
-        mLogger.debug("run");
+
+        return res;
     }
 
     @AfterTest
@@ -54,7 +58,6 @@ public class InterfaceTester {
     public void report(String path, String reportPath) throws IOException, InvalidFormatException, ExcelOprationFailException {
         SetValueToExcel setValueToExcel = new SetValueToExcel();
         setValueToExcel.setResultToExcel(path, mTestCases);
-        mLogger.debug("report");
         ResultStatisticsCreator resultStatisticsCreator = new ResultStatisticsCreator();
         ResultStatistics resultStatistics = resultStatisticsCreator.statisticsResult(mTestCases);
         ChartGenerator chartGenerator = new ChartGenerator();
