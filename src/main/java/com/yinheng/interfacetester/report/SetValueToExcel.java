@@ -22,12 +22,14 @@ public class SetValueToExcel {
 
         for (int i = 1; i <= sheet.getLastRowNum(); i++) {
             TestCase testCase = testCases.get(i - 1);
-            LogManager.getLogger().debug("rows:" + sheet.getLastRowNum());
-            LogManager.getLogger().debug("testCase" + (i - 1) + ":response" + testCase.getResponse());
-            LogManager.getLogger().debug("testCase" + (i - 1) + ":result" + testCase.getResult().name());
-            Row row = sheet.getRow(i);
-            row.getCell(10).setCellValue(testCase.getResponse());
-            row.getCell(12).setCellValue(testCase.getResult().name());
+            if (testCase.getResult() != null) {
+                LogManager.getLogger().debug("rows: " + sheet.getLastRowNum());
+                LogManager.getLogger().debug("testCase" + (i - 1) + ":response: " + testCase.getResponse());
+                LogManager.getLogger().debug("testCase" + (i - 1) + ":result: " + testCase.getResult().name());
+                Row row = sheet.getRow(i);
+                row.getCell(10).setCellValue(testCase.getResponse());
+                row.getCell(12).setCellValue(testCase.getResult().name());
+            }
         }
 
         // Write to tmp.
