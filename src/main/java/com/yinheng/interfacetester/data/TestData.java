@@ -76,12 +76,7 @@ public class TestData {
                         case 9:
                             testCase.setOutput(cellValue);
                             break;
-                        case 10:
-                            testCase.setResponse(cellValue);
-                            break;
-                        case 12:
-                            testCase.setResult(Result.valueOf(cellValue.trim()));
-                            break;
+
                     } // End switch.
                 } // End for.
 
