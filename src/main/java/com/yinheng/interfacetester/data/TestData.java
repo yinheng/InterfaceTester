@@ -46,37 +46,38 @@ public class TestData {
 
                 for (Cell cell : row) {
                     String cellValue = dataFormatter.formatCellValue(cell);
-
                     int columnIndex = cell.getColumnIndex();
-                    switch (columnIndex) {
-                        case 0:
+                    Cell cell0 = sheet.getRow(0).getCell(columnIndex);
+                    String cell0Value = dataFormatter.formatCellValue(cell0);
+                    switch (cell0Value) {
+                        case "ID":
                             testCase.setId(cellValue);
                             break;
-                        case 1:
+                        case "TestCase":
                             testCase.setTestName(cellValue);
                             break;
-                        case 2:
+                        case "Level":
                             testCase.setLevel(Level.valueOf(cellValue.trim()));
                             break;
-                        case 3:
+                        case "Type":
                             testCase.setRequestType(RequestType.valueOf(cellValue.trim()));
                             break;
-                        case 4:
+                        case "Http_Header":
                             testCase.setHttpHeader(cellValue);
                             break;
-                        case 6:
+                        case "Target":
                             testCase.setTarget(cellValue);
                             break;
-                        case 7:
+                        case "Expected_Data":
                             testCase.setExpectedData(cellValue);
                             break;
-                        case 8:
+                        case "Parameter":
                             testCase.setParam(cellValue);
                             break;
-                        case 9:
+                        case "Output":
                             testCase.setOutput(cellValue);
                             break;
-                        case 13:
+                        case "Configs":
                             testCase.setConfigs(new TestCaseConfigs(cellValue));
                             break;
 
