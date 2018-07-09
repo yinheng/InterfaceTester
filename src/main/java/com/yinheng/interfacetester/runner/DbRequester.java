@@ -39,20 +39,22 @@ public class DbRequester implements TestCaseRequester {
 
         ResultSetMetaData resultSetMetaData = resultSet.getMetaData();
         int columnCount = resultSetMetaData.getColumnCount();
-        List<Map<String, String>> reponseList = new ArrayList<Map<String, String>>();
-
-        resultSet.first();
-        while (!resultSet.isAfterLast()) {
-            Map<String, String> resultMap = new HashMap<String, String>();
-            for (int i = 0; i < columnCount; i++) {
-                String columnName = resultSetMetaData.getColumnName(i + 1);
-                String value = resultSet.getString(i + 1);
-                resultMap.put(columnName, value);
+        List<Map<String, String>> responseList = new ArrayList<>();
+        //判断查询结果集是否为空,为空，next()返回false
+        if(resultSet.next()) {
+            resultSet.first();
+            while (!resultSet.isAfterLast()) {
+                Map<String, String> resultMap = new HashMap<>();
+                for (int i = 0; i < columnCount; i++) {
+                    String columnName = resultSetMetaData.getColumnName(i + 1);
+                    String value = resultSet.getString(i + 1);
+                    resultMap.put(columnName, value);
+                }
+                responseList.add(resultMap);
+                resultSet.next();
             }
-            reponseList.add(resultMap);
-            resultSet.next();
         }
-        String result = JSONArray.toJSONString(reponseList);
+        String result = JSONArray.toJSONString(responseList);
         return result;
     }
 }

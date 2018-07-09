@@ -15,10 +15,10 @@ import java.util.Map;
  */
 public class ResponseParser {
 
-    public void parseResponse(TestCase testCase, String reponse) throws OutPutKeyNotFoundException {
-        JsonElement jsonElement = new JsonParser().parse(reponse);
-        boolean isJsonArray = reponse.startsWith("[{") && reponse.endsWith("}]");
-        List<Map<String, String>> reponseList = new ArrayList<Map<String, String>>();
+    public void parseResponse(TestCase testCase, String response) throws OutPutKeyNotFoundException {
+        JsonElement jsonElement = new JsonParser().parse(response);
+        boolean isJsonArray = jsonElement.isJsonArray();
+        List<Map<String, String>> responseList = new ArrayList<Map<String, String>>();
 
         if(isJsonArray) {
             JsonArray jsonArray = jsonElement.getAsJsonArray();
@@ -26,15 +26,15 @@ public class ResponseParser {
             for(int i = 0; i < jsonArray.size(); i ++) {
                 JsonObject jsonObject= jsonArray.get(i).getAsJsonObject();
                 Map<String, String> subMap = parseJsonObject(testCase, jsonObject);
-                reponseList.add(subMap);
+                responseList.add(subMap);
             }
-            testCase.setResponseList(reponseList);
+            testCase.setResponseList(responseList);
 
         }else {
             JsonObject jsonObject = jsonElement.getAsJsonObject();
-            Map<String, String> reponseMap = parseJsonObject(testCase, jsonObject);
-            reponseList.add(reponseMap);
-            testCase.setResponseList(reponseList);
+            Map<String, String> responseMap = parseJsonObject(testCase, jsonObject);
+            responseList.add(responseMap);
+            testCase.setResponseList(responseList);
         }
 
         parseOutput(testCase);

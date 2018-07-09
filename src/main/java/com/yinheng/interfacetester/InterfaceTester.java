@@ -8,6 +8,7 @@ import com.yinheng.interfacetester.report.ExcelOprationFailException;
 import com.yinheng.interfacetester.report.ResultStatisticsCreator;
 import com.yinheng.interfacetester.report.SetValueToExcel;
 import com.yinheng.interfacetester.result.Compare;
+import com.yinheng.interfacetester.runner.ParamReplace;
 import com.yinheng.interfacetester.runner.ResponseFailException;
 import com.yinheng.interfacetester.runner.TestCaseRunner;
 import org.apache.logging.log4j.LogManager;
@@ -35,25 +36,11 @@ public class InterfaceTester {
 
     @Test(dataProvider = "testcaseProvider")
     public void run(TestCase testCase) throws Exception {
+
+        ParamReplace paramReplace = new ParamReplace();
+        paramReplace.replaceParam(mTestCases, testCase);
+
         TestCaseRunner testCaseRunner = new TestCaseRunner();
-
-        if(testCase.getIndex() !=0) {
-            String output = mTestCases.get(testCase.getIndex()-1).getOutput();
-            if(output != null) {
-                Map<String, String> outputMap = mTestCases.get(testCase.getIndex()-1).getOutputMap();
-                for(String key: outputMap.keySet()) {
-                    String replaceStr = "\"$<" + key + ">\"";
-                    String param = testCase.getParam();
-                    if(param.contains(replaceStr)) {
-                        String newParam = param.replace(replaceStr, outputMap.get(key));
-                        testCase.setParam(newParam);
-                        LogManager.getLogger().debug("new param: " + newParam);
-                    }
-                }
-
-            }
-        }
-
         testCaseRunner.runCase(testCase);
         Compare compare = new Compare();
         compare.compareResult(testCase);
