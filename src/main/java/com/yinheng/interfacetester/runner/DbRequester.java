@@ -4,6 +4,7 @@ import com.google.gson.JsonObject;
 import com.yinheng.interfacetester.data.model.TestCase;
 import com.yinheng.interfacetester.data.model.TestCaseConfigs;
 import org.apache.logging.log4j.LogManager;
+import org.jfree.data.json.impl.JSONArray;
 import org.jfree.data.json.impl.JSONObject;
 
 import java.io.IOException;
@@ -38,23 +39,20 @@ public class DbRequester implements TestCaseRequester {
 
         ResultSetMetaData resultSetMetaData = resultSet.getMetaData();
         int columnCount = resultSetMetaData.getColumnCount();
-        Map<String, String> resultMap = new HashMap<String, String>();
+        List<Map<String, String>> reponseList = new ArrayList<Map<String, String>>();
 
-        for (int i = 0; i < columnCount; i++) {
-            String columnName = resultSetMetaData.getColumnName(i + 1);
-            List<String> valueList = new ArrayList<String>();
-            while (resultSet.next()) {
+        resultSet.first();
+        while (!resultSet.isAfterLast()) {
+            Map<String, String> resultMap = new HashMap<String, String>();
+            for (int i = 0; i < columnCount; i++) {
+                String columnName = resultSetMetaData.getColumnName(i + 1);
                 String value = resultSet.getString(i + 1);
-                valueList.add(value);
+                resultMap.put(columnName, value);
             }
-            String value0 = "";
-            LogManager.getLogger().debug("size: " + valueList.size());
-            if(valueList.size()== 1) {
-                value0= valueList.get(0);
-            }
-            resultMap.put(columnName, value0);
+            reponseList.add(resultMap);
+            resultSet.next();
         }
-        String result = JSONObject.toJSONString(resultMap);
+        String result = JSONArray.toJSONString(reponseList);
         return result;
     }
 }

@@ -2,6 +2,7 @@ package com.yinheng.interfacetester.data.model;
 
 import lombok.Data;
 
+import java.util.List;
 import java.util.Map;
 
 @Data
@@ -19,7 +20,7 @@ public class TestCase {
     private String output;
     private Map<String,String> outputMap;
     private String response;
-    private Map<String, String> responseMap;
+    private List<Map<String, String>> responseList;
     private Result result;
 
     private TestCaseConfigs configs;

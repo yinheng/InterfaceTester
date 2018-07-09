@@ -17,6 +17,7 @@ import org.testng.annotations.*;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
+import java.util.Map;
 
 
 public class InterfaceTester {
@@ -39,13 +40,17 @@ public class InterfaceTester {
         if(testCase.getIndex() !=0) {
             String output = mTestCases.get(testCase.getIndex()-1).getOutput();
             if(output != null) {
-                String replaceStr = "\"$<" + output + ">\"";
-                String param = testCase.getParam();
-                if(param.contains(replaceStr)) {
-                    String newParam = param.replace(replaceStr, mTestCases.get(testCase.getIndex()-1).getOutputMap().get(output));
-                    testCase.setParam(newParam);
-                    LogManager.getLogger().debug("new param: " + newParam);
+                Map<String, String> outputMap = mTestCases.get(testCase.getIndex()-1).getOutputMap();
+                for(String key: outputMap.keySet()) {
+                    String replaceStr = "\"$<" + key + ">\"";
+                    String param = testCase.getParam();
+                    if(param.contains(replaceStr)) {
+                        String newParam = param.replace(replaceStr, outputMap.get(key));
+                        testCase.setParam(newParam);
+                        LogManager.getLogger().debug("new param: " + newParam);
+                    }
                 }
+
             }
         }
 
