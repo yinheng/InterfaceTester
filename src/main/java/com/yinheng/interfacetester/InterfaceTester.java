@@ -32,7 +32,7 @@ public class InterfaceTester {
     }
 
     @Test(dataProvider = "testcaseProvider")
-    public void run(TestCase testCase) throws IOException, ResponseFailException, SQLException, ClassNotFoundException {
+    public void run(TestCase testCase) throws Exception {
         TestCaseRunner testCaseRunner = new TestCaseRunner();
         testCaseRunner.runCase(testCase);
         Compare compare = new Compare();

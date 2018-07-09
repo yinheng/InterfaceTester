@@ -9,7 +9,7 @@ import java.sql.SQLException;
 
 public class TestCaseRunner {
 
-    public void runCase(TestCase testCase) throws IOException, ResponseFailException, SQLException, ClassNotFoundException {
+    public void runCase(TestCase testCase) throws Exception {
         LogManager.getLogger().debug("run case " + testCase.getTestName());
 
         // 1. Connect target with param.

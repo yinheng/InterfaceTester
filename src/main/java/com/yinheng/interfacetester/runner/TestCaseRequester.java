@@ -6,5 +6,5 @@ import java.io.IOException;
 import java.sql.SQLException;
 
 public interface TestCaseRequester {
-    String getResponse(TestCase testCase) throws IOException, ResponseFailException, ClassNotFoundException, SQLException;
+    String getResponse(TestCase testCase) throws Exception;
 }

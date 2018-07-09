@@ -15,7 +15,7 @@ public class DbRequester implements TestCaseRequester {
     private static final String NAME="root";
     private static final String PASSWORD="raisecom@123";
 
-    public String getResponse(TestCase testCase) throws IOException, ResponseFailException, ClassNotFoundException, SQLException {
+    public String getResponse(TestCase testCase) throws SQLException {
 
         Connection connection = DriverManager.getConnection(URL, NAME, PASSWORD);
         Statement statement = connection.createStatement();
