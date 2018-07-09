@@ -14,6 +14,7 @@ import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.annotations.*;
 
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.List;
 
 
@@ -31,7 +32,7 @@ public class InterfaceTester {
     }
 
     @Test(dataProvider = "testcaseProvider")
-    public void run(TestCase testCase) throws IOException, ResponseFailException {
+    public void run(TestCase testCase) throws IOException, ResponseFailException, SQLException, ClassNotFoundException {
         TestCaseRunner testCaseRunner = new TestCaseRunner();
         testCaseRunner.runCase(testCase);
         Compare compare = new Compare();

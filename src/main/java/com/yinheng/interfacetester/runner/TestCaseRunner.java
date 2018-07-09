@@ -4,11 +4,12 @@ import com.yinheng.interfacetester.data.model.TestCase;
 import org.apache.logging.log4j.LogManager;
 
 import java.io.IOException;
+import java.sql.SQLException;
 
 
 public class TestCaseRunner {
 
-    public void runCase(TestCase testCase) throws IOException, ResponseFailException {
+    public void runCase(TestCase testCase) throws IOException, ResponseFailException, SQLException, ClassNotFoundException {
         LogManager.getLogger().debug("run case " + testCase.getTestName());
 
         // 1. Connect target with param.

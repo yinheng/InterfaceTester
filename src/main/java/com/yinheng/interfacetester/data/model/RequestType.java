@@ -1,5 +1,6 @@
 package com.yinheng.interfacetester.data.model;
 
+import com.yinheng.interfacetester.runner.DbRequester;
 import com.yinheng.interfacetester.runner.HttpGetRequester;
 import com.yinheng.interfacetester.runner.HttpPostRequester;
 import com.yinheng.interfacetester.runner.TestCaseRequester;
@@ -20,7 +21,7 @@ public enum RequestType {
 
     DATABASE {
         public TestCaseRequester newCaseRequester() {
-            return null;
+            return new DbRequester();
         }
     };
 
