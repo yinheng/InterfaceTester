@@ -20,6 +20,10 @@ public class TestCaseRunner {
 
         TestCaseRequester testCaseRequester = testCase.getRequestType().newCaseRequester();
         testCase.setResponse(testCaseRequester.getResponse(testCase));
+        LogManager.getLogger().debug("test case response: " + testCase.getResponse());
+
+        ResponseParser responseParser = new ResponseParser();
+        responseParser.parseResponse(testCase, testCase.getResponse());
 
         LogManager.getLogger().debug("runCase response: " + testCase.getResponse());
     }

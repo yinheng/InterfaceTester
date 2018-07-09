@@ -31,7 +31,7 @@ public class DbRequester implements TestCaseRequester {
         ResultSet resultSet = statement.executeQuery(testCase.getParam());
         if (resultSet.next()) {
             org.apache.logging.log4j.LogManager.getLogger().debug("db response: " + resultSet.getString("name"));
-            return resultSet.getString("name");
+            return "{id:"+ resultSet.getString("id") + "}";
         } else {
             return null;
         }

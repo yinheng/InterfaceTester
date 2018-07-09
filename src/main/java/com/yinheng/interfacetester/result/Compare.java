@@ -20,5 +20,6 @@ public class Compare {
             testCase.setResult(Result.FAILURE);
         }
         LogManager.getLogger().debug("Result: " + testCase.getResult());
+        //LogManager.getLogger().debug("compare: " + "response: " + testCase.getResponse() + " expactData: " + testCase.getExpectedData());
     }
 }

@@ -45,7 +45,7 @@ public class TestData {
                 TestCase testCase = new TestCase();
 
                 for (Cell cell : row) {
-                    String cellValue = dataFormatter.formatCellValue(cell);
+                    String cellValue = dataFormatter.formatCellValue(cell).trim();
                     int columnIndex = cell.getColumnIndex();
                     Cell cell0 = sheet.getRow(0).getCell(columnIndex);
                     String cell0Value = dataFormatter.formatCellValue(cell0);
@@ -85,6 +85,8 @@ public class TestData {
                 } // End for.
 
                 testCases.add(testCase);
+                testCase.setIndex(testCases.size()-1);
+                LogManager.getLogger().debug("test case index: " + testCase.getIndex());
             } // End if.
 
         }

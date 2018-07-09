@@ -10,6 +10,7 @@ import com.yinheng.interfacetester.report.SetValueToExcel;
 import com.yinheng.interfacetester.result.Compare;
 import com.yinheng.interfacetester.runner.ResponseFailException;
 import com.yinheng.interfacetester.runner.TestCaseRunner;
+import org.apache.logging.log4j.LogManager;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.annotations.*;
 
@@ -34,6 +35,20 @@ public class InterfaceTester {
     @Test(dataProvider = "testcaseProvider")
     public void run(TestCase testCase) throws Exception {
         TestCaseRunner testCaseRunner = new TestCaseRunner();
+
+        if(testCase.getIndex() !=0) {
+            String output = mTestCases.get(testCase.getIndex()-1).getOutput();
+            if(output != null) {
+                String replaceStr = "\"$<" + output + ">\"";
+                String param = testCase.getParam();
+                if(param.contains(replaceStr)) {
+                    String newParam = param.replace(replaceStr, mTestCases.get(testCase.getIndex()-1).getOutputMap().get(output));
+                    testCase.setParam(newParam);
+                    LogManager.getLogger().debug("new param: " + newParam);
+                }
+            }
+        }
+
         testCaseRunner.runCase(testCase);
         Compare compare = new Compare();
         compare.compareResult(testCase);
