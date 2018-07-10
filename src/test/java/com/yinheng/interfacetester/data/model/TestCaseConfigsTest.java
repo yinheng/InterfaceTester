@@ -1,9 +1,20 @@
 package com.yinheng.interfacetester.data.model;
 
+import com.yinheng.interfacetester.BuildConfig;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.io.File;
+import java.io.IOException;
+
 public class TestCaseConfigsTest {
+
+    @Test
+    public void testReadFile() throws IOException {
+        BuildConfig.DEBUG = true;
+        File file = new File("src/test/resources/test_case_config_test.prop");
+        TestCaseConfigs configs = new TestCaseConfigs(file);
+    }
 
     @Test
     public void testHas() throws Exception {

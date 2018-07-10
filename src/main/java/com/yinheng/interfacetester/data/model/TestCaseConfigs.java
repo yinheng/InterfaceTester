@@ -1,14 +1,17 @@
 package com.yinheng.interfacetester.data.model;
 
 import com.google.common.base.Preconditions;
+import com.google.common.io.Files;
 import com.yinheng.interfacetester.BuildConfig;
 import com.yinheng.interfacetester.util.TextUtils;
 import org.apache.logging.log4j.LogManager;
 import org.testng.Assert;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
 import java.io.StringReader;
+import java.nio.charset.Charset;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -22,6 +25,16 @@ public class TestCaseConfigs {
 
     public TestCaseConfigs(String rawConfigString) {
         this.rawConfigString = rawConfigString;
+    }
+
+    public TestCaseConfigs(File configFile) throws IOException {
+        Assert.assertNotNull(configFile);
+        Assert.assertTrue(configFile.exists());
+        StringBuilder content = new StringBuilder();
+        Files.asCharSource(configFile, Charset.defaultCharset())
+                .copyTo(content);
+        this.rawConfigString = content.toString();
+
     }
 
     private boolean hasAnyConfigInput() {
