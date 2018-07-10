@@ -17,4 +17,5 @@ public class TestCase {
     private String response;
     private Result result;
 
+    private TestCaseConfigs configs;
 }

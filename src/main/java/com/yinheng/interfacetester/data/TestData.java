@@ -3,8 +3,8 @@ package com.yinheng.interfacetester.data;
 import com.yinheng.interfacetester.BuildConfig;
 import com.yinheng.interfacetester.data.model.Level;
 import com.yinheng.interfacetester.data.model.RequestType;
-import com.yinheng.interfacetester.data.model.Result;
 import com.yinheng.interfacetester.data.model.TestCase;
+import com.yinheng.interfacetester.data.model.TestCaseConfigs;
 import org.apache.logging.log4j.LogManager;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.*;
@@ -75,6 +75,9 @@ public class TestData {
                             break;
                         case 9:
                             testCase.setOutput(cellValue);
+                            break;
+                        case 13:
+                            testCase.setConfigs(new TestCaseConfigs(cellValue));
                             break;
 
                     } // End switch.
